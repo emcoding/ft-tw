@@ -4,3 +4,7 @@ title: "" # the name of your site, e.g. ACME Corp.
 
 plugins:
   - jekyll-postcss
+
+sass:
+#  style: compressed
+  implementation: sass-embedded
