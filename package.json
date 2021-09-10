@@ -10,5 +10,9 @@
     "autoprefixer": "^10.3.4",
     "postcss": "^8.3.6",
     "tailwindcss": "^2.2.14"
+  },
+  "scripts": {
+    "build" : "JEKYLL_ENV=production NODE_ENV=production bundle exec jekyll build" ,
+    "dev" : "JEKYLL_ENV=production bundle exec jekyll serve --livereload"
   }
 }
