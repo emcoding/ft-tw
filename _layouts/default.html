@@ -5,8 +5,11 @@
     <meta charset="utf-8">
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
   </head>
-  <body class="container mx-auto mx-8 font-mono prose prose-green">
-    {{ content }}
+  <body class="font-sans">
+    <div class="font-sans container max-w-prose mx-auto px-10 prose prose-green prose-sm sm:prose-lg lg:prose-xl sm:font-light lg:font-normal">
+      {{ content }}
+    </div>
   </body>
 </html>
